@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "stock-sentiment-nlu"
+version = "0.1.0"
+description = "Stock market sentiment analysis using NLU tokenization and natural language understanding"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Mohit Varikuti"}]
+requires-python = ">=3.8"
+dependencies = [
+    "nltk>=3.6",
+    "requests>=2.25",
+    "python-dotenv>=0.19",
+]
